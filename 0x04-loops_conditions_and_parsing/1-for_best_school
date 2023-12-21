@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# This script should print Best School 10 times
 array=("Best School")
 for i in {0..9}; do
 	echo "${array[i - i]}"
