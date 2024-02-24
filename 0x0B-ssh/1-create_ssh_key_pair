@@ -1,4 +1,4 @@
 #!/usr/bin/env bash 
 #this script is to create a random key RSA for an ssh server
 
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/school
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N "betty"
